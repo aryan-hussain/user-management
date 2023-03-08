@@ -1,0 +1,16 @@
+#AddNewItem button{
+    background-color: brown;
+    color: white;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+#AddNewItem h2{
+    color: brown;
+    padding-bottom: 30px;
+}
+
+#AddNewItem textarea{
+    width: 450px;
+    height: 46px;
+}

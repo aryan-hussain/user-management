@@ -1,0 +1,11 @@
+header{
+    
+    padding: 10px 0;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+button{
+    margin-left: 11px;
+    cursor: pointer;
+}
