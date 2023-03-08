@@ -9,6 +9,7 @@ import Setting from './components/Setting';
 import Dashboard from './components/Dashboard';
 import UserPost from './components/UserPost';
 import UserComments from './components/UserComments'
+import Demo from './components/Demo';
 
 function App() {
   const [showAddSection, setShowAddSection] = useState(false);
@@ -29,6 +30,7 @@ function App() {
           <Route path="/posts" element={<UserPost />} />
           <Route path="/comments" element={<UserComments />} />
         </Routes>
+        <Demo />
       </BrowserRouter>
     </>
 
